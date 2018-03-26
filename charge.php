@@ -5,7 +5,7 @@
   require_once('models/Customer.php');
   require_once('models/Transaction.php');
 
-  \Stripe\Stripe::setApiKey('sk_test_Gkmiw7YpMZLodhr0Ab1WOO9g');
+  \Stripe\Stripe::setApiKey('insertKeyHere');
 
  // Sanitize POST Array
  $POST = filter_var_array($_POST, FILTER_SANITIZE_STRING);
